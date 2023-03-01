@@ -1,0 +1,232 @@
+
+h1{
+    color: #217670;
+    text-align: center;
+    font-family: 'Droid Arabic Naskh', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#del-countdown{
+    width: 900px;
+    margin: 0% auto;
+}
+#clock div{
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 1.5%;
+    margin-bottom: 0px;
+    color: #217670;
+    width: 22%;
+    border: 6px solid #217670;
+    border-radius: 20px;
+
+}
+#text-alert{
+
+    color: #FC1111FF;
+    text-align: center;
+    font-family: 'Droid Arabic Naskh', serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#clock-alert div{
+    float: left;
+    text-align: center;
+    font-size: 84px;
+    margin: 0 1.5%;
+    margin-bottom: 0px;
+    color: #FC1111FF;
+    width: 22%;
+    border: 6px solid #FC1111FF;
+    border-radius: 20px;
+
+}
+
+
+#clock:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#clock >div > p{
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 10px;
+    color: #217670;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+#clock-alert span{
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    color: #FC1111FF;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+span.turn{
+    animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+    0%{transform: rotateX(0deg)}
+    100%{transform: rotateX(360deg)}
+}
+
+@media  screen and (max-width: 640px) {
+ #del-countdown{
+        width: 100%;
+        margin: 0% auto;
+    }
+    #clock div {
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0.5%;
+        color: #217670;
+        padding: 20px;
+        width: 24%;
+        box-sizing: border-box;
+
+
+    }
+
+    #clock >div>p{
+
+        font-size: 15px;
+
+    }
+
+    h1{
+        color: #000;
+        text-align: center;
+        font-family: 'Droid Arabic Naskh', serif;
+        color: #217670;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 200px) {
+     #del-countdown{
+        width: 100%;
+        margin: 0% auto;
+    }
+    #clock div {
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0.5%;
+        color: #217670;
+        padding: 0px;
+        width: 23%;
+        box-sizing: border-box;
+
+
+    }
+    #clock span{
+        display: block;
+        clear: both;
+        text-align: center;
+        font-size: 5px;
+        color: #217670;
+        font-family: 'Droid Arabic Naskh', serif;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+     #del-countdown{
+        width: 100%;
+        margin: 0% auto;
+    }
+    #clock div {
+        float: left;
+        text-align: center;
+        font-size: 60px;
+        margin: 0 0.5%;
+        color: #217670;
+        padding: 0px;
+        width: 24%;
+
+
+    }
+    #clock span{
+        display: block;
+        clear: both;
+        text-align: center;
+        font-size: 13px;
+        color: #217670;
+        font-family: 'Droid Arabic Naskh', serif;
+    }
+     #clock-alert span{
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 10px;
+    color: #FC1111FF;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+ #clock-alert div{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0.5%;
+    margin-bottom: 0px;
+    color: #FC1111FF;
+    width: 24%;
+    border: 6px solid #FC1111FF;
+    border-radius: 20px;
+
+}
+}
+@media only screen and (max-width: 280px) {
+     #del-countdown{
+        width: 100%;
+        margin: 0% auto;
+    }
+
+    #clock div {
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0.5%;
+        color: #217670;
+        padding: 0px;
+        width: 23%;
+        box-sizing: border-box;
+
+
+    }
+    #clock span{
+        display: block;
+        clear: both;
+        text-align: center;
+        font-size: 5px;
+        color: #217670;
+        font-family: 'Droid Arabic Naskh', serif;
+    }
+    #clock-alert span{
+    display: block;
+    clear: both;
+    text-align: center;
+    font-size: 10px;
+    color: #FC1111FF;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+ #clock-alert div{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0.5%;
+    margin-bottom: 0px;
+    color: #FC1111FF;
+    width: 23%;
+    border: 6px solid #FC1111FF;
+    border-radius: 20px;
+
+}
+}

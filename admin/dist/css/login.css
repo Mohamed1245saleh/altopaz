@@ -1,0 +1,425 @@
+/* Le 2019-04-01 *//*--------- Said Asebbane ---------*//* http://asebbane.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+
+a, img{
+	border: 0;
+	outline: none
+}
+.Authleft label{
+	float: right;
+	color: #BB7861;
+	font-size: 25px;
+
+}
+a, a:hover, a:focus {
+	text-decoration: none
+}
+a {
+	transition-duration: 0.4s;
+	transition-property: background, color, border, opacity;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+strong, b {
+	font-weight: bold
+}
+img {
+	width: 40%;
+	position:relative;
+	right:20%;
+	margin-top: 150px;
+}
+.floteksa{
+	width: 27%;
+	position:relative;
+	right:0%;
+	margin-top: 0px;
+}
+.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.clear {
+	display: block;
+	clear: both
+}
+.left {
+	float: left
+}
+.right {
+	float: right
+}
+.none {
+	display: none
+}
+html {
+	height: 100% !important
+}
+body {
+	line-height: 1;
+	font-family: Cairo;
+	background: #ecf0f5;
+	font-size: 100%;
+	height: 100% !important;
+	position: relative;
+	direction: rtl;
+	background-image: url("../../../img/main-background.png") ;
+}
+hedaer {
+}
+#Authentication {
+	width:80%;
+	height: 85%;
+	background: #fff;
+	display:flex;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #230904;
+	border-radius: 10px;
+
+}
+
+/*@media (min-width:768px) {*/
+/*#Authentication {*/
+/*	width: 650px*/
+/*}*/
+/*}*/
+
+@media (min-width:992px) {
+#Authentication {
+	width: 750px;
+	position: relative;
+	top:10%;
+}
+}
+
+@media (min-width:1200px) {
+#Authentication {
+	width: 1000px;
+	position: relative;
+	top:10%;
+	opacity:0.85;
+}
+}
+
+.Authleft {
+	color: #fff;
+	padding: 0;
+	text-align: center;
+	margin: 0px 40px ;
+	float: left;
+	width: 40%;
+	height: 100%;
+	opacity:0.8;
+}
+.Authleft h1 {
+	font-size: 35px;
+	margin-top: 10%;
+	margin-bottom: 15%;
+	color: #BB7861;
+}
+.Authleft h2 {
+	margin-top: 30px
+}
+.Authleft h2 > img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 6px solid #ecf0f5;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.skin-blue .Authleft, .skin-blue-light .Authleft {
+	background: #3c8dbc;
+}
+.skin-purple .Authleft, .skin-purple-light .Authleft {
+	/*background: #605ca8;*/
+}
+.skin-green .Authleft, .skin-green-light .Authleft {
+	background: #00a65a;
+}
+.skin-red .Authleft, .skin-red-light .Authleft {
+	background: #3c8dbc;
+}
+.skin-yellow .Authleft, .skin-yellow-light .Authleft {
+	background: #f39c12;
+}
+.Authleft .logo {
+	margin-top: 20px;
+}
+.Authleft .slogan {
+	margin-top: 40px;
+}
+.Authright {
+	background-image: url("../../../img/login-banner.png");
+	background-color:#230904;
+	background-size: 100%;
+	padding: 0;
+	text-align: center;
+	float: right;
+	width: calc(60% - -7px);
+	height: 100%;
+	border: 1px solid #230904;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 0px 10px 10px 0px;
+}
+.Authleft .form-control {
+	display: block;
+	width: 100%;
+	margin: 15px auto;
+	color: #777;
+	position: relative;
+}
+.Authleft .form-control .iconinput {
+	position: absolute;
+	left: 5px;
+	top: 15px;
+}
+.Authright h1 {
+	padding: 30px;
+	font-size: 28px;
+	margin-right: 211px;
+	color: #fff;
+}
+.Authleft input {
+	height: 38px;
+	width: calc(100% - 30px);
+	padding: 5px;
+	border:none;
+	line-height: 1.42857143;
+	border-bottom: 1px solid #230904;
+	background-color: #fff;
+	font-size: 14px;
+	font-family: Cairo;
+	margin-bottom: 20px;
+}
+
+.Authleft input[type=submit] {
+	height: 45px;
+	width: 40%;
+	color: #fff;
+	margin-top: 30px;
+	opacity: 1;
+    font-size:18px;
+	font-weight: bolder;
+	border: 1px solid #230904;
+	border-radius: 10px;
+	background-color: #230904;
+}
+.skin-blue .Authleft input[type=submit], .skin-blue-light .Authleft input[type=submit] {
+	border: 1px solid #3c8dbc;
+	background-color: #3c8dbc;
+}
+.skin-purple .Authleft input[type=submit], .skin-purple-light .Authleft input[type=submit] {
+	border: 1px solid #BB7861;
+	background-color: #BB7861;
+}
+.skin-green .Authleft input[type=submit], .skin-green-light .Authleft input[type=submit] {
+	border: 1px solid #00a65a;
+	background-color: #00a65a;
+}
+.skin-red .Authleft input[type=submit], .skin-red-light .Authleft input[type=submit] {
+	border: 1px solid #3c8dbc;
+	background-color: #3c8dbc;
+}
+.skin-yellow .Authleft input[type=submit], .skin-yellow-light .Authleft input[type=submit] {
+	border: 1px solid #f39c12;
+	background-color: #f39c12;
+}
+.Authright p {
+	text-align: right;
+	padding: 20px 0 0;
+	font-weight: bold;
+	font-size: 12px;
+	direction: rtl;
+}
+.espaceauth {
+	margin: 20px auto
+}
+.Compte {
+	padding-top: 100px;
+	max-width: 250px;
+	margin: auto
+}
+.Compte a {
+	display: block;
+	border-radius: 25px;
+	border: 2px solid #3c8dbc;
+	color: #3c8dbc;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 20px;
+}
+.skin-blue .Compte a, .skin-blue-light .Compte a {
+	border-color:#3c8dbc;
+	color: #3c8dbc;
+}
+.skin-purple .Compte a, .skin-purple-light .Compte a {
+	border-color:#605ca8;
+	color: #605ca8;
+}
+.skin-green .Compte a, .skin-green-light .Compte a {
+	border-color:#00a65a;
+	color: #00a65a;
+}
+.skin-red .Compte a, .skin-red-light .Compte a {
+	border-color:#3c8dbc;
+	color: #3c8dbc;
+}
+.skin-yellow .Compte a, .skin-yellow-light .Compte a {
+	border-color:#f39c12;
+	color: #f39c12;
+}
+.Compte a:hover {
+	border-color:#000;
+	color: #000;
+}
+.footer {
+	position: fixed;
+	bottom: 10px;
+	text-align: center;
+}
+.footer p {
+	font-size: 11px;
+	font-weight: 100
+}
+.footer p a {
+	color: #3c8dbc;
+}
+.footer p font {
+	float: left;
+	padding-right: 5px;
+}
+
+/************** Mobile **************/
+
+
+
+
+
+
+@media (max-width:787px){
+	body{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		/*overflow: hidden;*/
+		position: absolute;
+		top: 0;
+		left: 0;
+		background:none ;
+	}
+	img {
+		width: 50%;
+		margin-top:0px;
+		position: relative;
+		right: 0%;
+	}
+	#Authentication {
+		width: auto;
+		height: auto;
+		opacity:0.85;
+		display: inline-block;
+		border:none;
+		/*background: none;*/
+	}
+	.Authright {
+		width:auto;
+		height: auto;
+		background-image: url("../../../img/login-banner.png");
+		background-size: 200%;
+		background-color:#230904;
+		padding: 0;
+		text-align: center;
+		border: none;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+		border-radius: 0px 10px 10px 0px;
+
+	}
+	.Authright h1 {
+		padding: 15px;
+		font-size: 6vw;
+		margin-right:0px;
+		color: #ddbdb1;
+		font-family: 'Reem Kufi';
+	}
+
+	.Authleft {
+		color: #fff;
+		padding: 0;
+		text-align: center;
+		margin: 10% ;
+		float: none;
+		width: 76%;
+		height: 40%;
+		opacity: 0.8;
+		border:none;
+	}
+
+	.Authleft h1{
+		font-size: 8vw;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-right:25%;
+		color: #BB7861;
+		display:none;
+	}
+
+	.Authleft label{
+		float: none;
+		color: #BB7861;
+		font-size: 25px;
+		padding-bottom: 3vw;
+	}
+	.Authleft .form-control {
+		width: 100%;
+		margin: -5px auto;
+		color: #777;
+		position: relative;
+	}
+	.Authleft input{
+		height: 38px;
+		width: 100%;
+		padding: 5px;
+		border-radius: 4px;
+		line-height: 1.42857143;
+		border: 1px solid #999;
+		background-color: #fff;
+		font-size: 14px;
+		font-family: Cairo;
+		margin-top:15px;
+	}
+
+
+	.Authleft input[type=submit] {
+		cursor: pointer;
+		height: 45px;
+		width: 100%;
+		color: #fff;
+		margin-top: 15px;
+		margin-right: 6px;
+	}
+
+	.floteksa {
+		width: 24%;
+		margin-right: 0%;
+	}
+	.footer {
+		position: relative;
+		padding-top: 10px;
+	}
+}

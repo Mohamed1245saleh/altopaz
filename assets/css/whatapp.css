@@ -1,0 +1,58 @@
+
+
+.leftside{
+ position: absolute;
+    left: 171%;
+    bottom: 130%;
+    z-index: 10000000000000000;
+}
+
+ul{
+    width: 100px;
+    position: absolute;
+    overflow: hidden;
+    margin-right:-70px;
+}
+.leftside li{
+    list-style-type: none;
+    padding: 20px;
+    transition: .6s;
+    color: #fff;
+    position: fixed;
+}
+
+
+.leftside li i{
+    font-size: 40px;
+}
+
+.leftside li:hover{
+    padding: 20px 40px;
+}
+
+.leftside li:nth-child(1){
+    background: #25D366;
+}
+
+
+@media (max-width:767px){
+    .leftside{
+        position: absolute;
+        left: 81%;
+        bottom: 110%;
+        z-index: 10000000000000000;
+    }
+
+
+}
+
+@media (min-width:768px){
+    .leftside{
+        position: absolute;
+        left: 25em;
+        bottom: 11em;
+        z-index: 10000000000000000;
+    }
+
+
+}
